@@ -1,0 +1,3381 @@
+19:57:15 **** Build of project pong_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+19:57:50 **** Clean-only build of configuration Debug for project pong ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  pong.elf.size  pong.elf
+' '
+19:57:51 **** Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:6: warning: unused variable 'U_D' [-Wunused-variable]
+  int U_D;
+      ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19520	   1144	  22568	  43232	   a8e0	pong.elf
+'Finished building: pong.elf.size'
+' '
+19:57:52 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:59:25 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:6: warning: unused variable 'U_D' [-Wunused-variable]
+  int U_D;
+      ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19536	   1144	  22568	  43248	   a8f0	pong.elf
+'Finished building: pong.elf.size'
+' '
+19:59:28 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:02:04 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:6: warning: unused variable 'U_D' [-Wunused-variable]
+  int U_D;
+      ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19536	   1144	  22568	  43248	   a8f0	pong.elf
+'Finished building: pong.elf.size'
+' '
+20:02:11 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:03:24 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:117:22: warning: operation on 'Y_PADDLE_LEFT' may be undefined [-Wsequence-point]
+        Y_PADDLE_LEFT = Y_PADDLE_LEFT ++;
+        ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+../src/helloworld.c:126:22: warning: operation on 'Y_PADDLE_LEFT' may be undefined [-Wsequence-point]
+        Y_PADDLE_LEFT = Y_PADDLE_LEFT --;
+        ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+../src/helloworld.c:84:6: warning: unused variable 'U_D' [-Wunused-variable]
+  int U_D;
+      ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19544	   1144	  22568	  43256	   a8f8	pong.elf
+'Finished building: pong.elf.size'
+' '
+20:03:26 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:21:03 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:117:22: warning: operation on 'Y_PADDLE_LEFT' may be undefined [-Wsequence-point]
+        Y_PADDLE_LEFT = Y_PADDLE_LEFT ++;
+        ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+../src/helloworld.c:126:22: warning: operation on 'Y_PADDLE_LEFT' may be undefined [-Wsequence-point]
+        Y_PADDLE_LEFT = Y_PADDLE_LEFT --;
+        ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+../src/helloworld.c:84:6: warning: unused variable 'U_D' [-Wunused-variable]
+  int U_D;
+      ^~~
+../src/helloworld.c:135:9: warning: 'L_R' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       if(L_R == LEFT)
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19492	   1144	  22568	  43204	   a8c4	pong.elf
+'Finished building: pong.elf.size'
+' '
+20:27:50 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:144:25: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       pong_vga_pos_ball = POS_BALL;
+                         ^
+../src/helloworld.c:146:28: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+          pong_vga_y_paddle = Y_PADDLE;
+                            ^
+../src/helloworld.c:92:13: warning: variable 'pong_vga_y_paddle' set but not used [-Wunused-but-set-variable]
+  uint32_t * pong_vga_y_paddle = (uint32_t *) PONG_VGA_Y_PADDLE;
+             ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:91:13: warning: variable 'pong_vga_pos_ball' set but not used [-Wunused-but-set-variable]
+  uint32_t * pong_vga_pos_ball = (uint32_t *) PONG_VGA_POS_BALL;
+             ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:84:7: warning: unused variable 'U_D' [-Wunused-variable]
+  uint U_D = UP;
+       ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19492	   1144	  22568	  43204	   a8c4	pong.elf
+'Finished building: pong.elf.size'
+' '
+20:27:53 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:29:12 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:133:23: error: invalid operands to binary & (have 'uint32_t * {aka long unsigned int *}' and 'int')
+      if(pong_vga_sync & 0x1)
+                       ^
+../src/helloworld.c:144:25: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       pong_vga_pos_ball = POS_BALL;
+                         ^
+../src/helloworld.c:146:28: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+          pong_vga_y_paddle = Y_PADDLE;
+                            ^
+../src/helloworld.c:92:13: warning: variable 'pong_vga_y_paddle' set but not used [-Wunused-but-set-variable]
+  uint32_t * pong_vga_y_paddle = (uint32_t *) PONG_VGA_Y_PADDLE;
+             ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:91:13: warning: variable 'pong_vga_pos_ball' set but not used [-Wunused-but-set-variable]
+  uint32_t * pong_vga_pos_ball = (uint32_t *) PONG_VGA_POS_BALL;
+             ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:84:7: warning: unused variable 'U_D' [-Wunused-variable]
+  uint U_D = UP;
+       ^~~
+make: *** [src/helloworld.o] ´íÎó 1
+20:30:26 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:7: warning: unused variable 'U_D' [-Wunused-variable]
+  uint U_D = UP;
+       ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19500	   1144	  22568	  43212	   a8cc	pong.elf
+'Finished building: pong.elf.size'
+' '
+20:30:35 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:38:13 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:7: warning: unused variable 'U_D' [-Wunused-variable]
+  uint U_D = UP;
+       ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19564	   1144	  22568	  43276	   a90c	pong.elf
+'Finished building: pong.elf.size'
+' '
+20:38:17 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:43:09 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:7: warning: unused variable 'U_D' [-Wunused-variable]
+  uint U_D = UP;
+       ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19596	   1144	  22568	  43308	   a92c	pong.elf
+'Finished building: pong.elf.size'
+' '
+20:43:13 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:50:05 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:7: warning: unused variable 'U_D' [-Wunused-variable]
+  uint U_D = UP;
+       ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19604	   1144	  22568	  43316	   a934	pong.elf
+'Finished building: pong.elf.size'
+' '
+20:50:11 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:51:24 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:7: warning: unused variable 'U_D' [-Wunused-variable]
+  uint U_D = UP;
+       ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19604	   1144	  22568	  43316	   a934	pong.elf
+'Finished building: pong.elf.size'
+' '
+20:51:25 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:52:22 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:7: warning: unused variable 'U_D' [-Wunused-variable]
+  uint U_D = UP;
+       ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19604	   1144	  22568	  43316	   a934	pong.elf
+'Finished building: pong.elf.size'
+' '
+20:52:31 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:55:50 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:7: warning: unused variable 'U_D' [-Wunused-variable]
+  uint U_D = UP;
+       ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19604	   1144	  22568	  43316	   a934	pong.elf
+'Finished building: pong.elf.size'
+' '
+20:55:51 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:56:25 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:7: warning: unused variable 'U_D' [-Wunused-variable]
+  uint U_D = UP;
+       ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19604	   1144	  22568	  43316	   a934	pong.elf
+'Finished building: pong.elf.size'
+' '
+20:56:26 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:03:31 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19720	   1144	  22568	  43432	   a9a8	pong.elf
+'Finished building: pong.elf.size'
+' '
+21:03:35 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:06:10 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19724	   1144	  22568	  43436	   a9ac	pong.elf
+'Finished building: pong.elf.size'
+' '
+21:06:12 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:08:27 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19724	   1144	  22568	  43436	   a9ac	pong.elf
+'Finished building: pong.elf.size'
+' '
+21:08:32 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:08:41 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:08:43 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:10:04 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19724	   1144	  22568	  43436	   a9ac	pong.elf
+'Finished building: pong.elf.size'
+' '
+21:10:07 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:12:41 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19724	   1144	  22568	  43436	   a9ac	pong.elf
+'Finished building: pong.elf.size'
+' '
+21:12:51 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:15:18 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19724	   1144	  22568	  43436	   a9ac	pong.elf
+'Finished building: pong.elf.size'
+' '
+21:15:23 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:16:37 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19724	   1144	  22568	  43436	   a9ac	pong.elf
+'Finished building: pong.elf.size'
+' '
+21:16:42 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:18:15 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19724	   1144	  22568	  43436	   a9ac	pong.elf
+'Finished building: pong.elf.size'
+' '
+21:18:17 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:24:24 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:111:7: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+       delay(50);
+       ^~~~~
+../src/helloworld.c:190:1: error: expected declaration or statement at end of input
+ }
+ ^
+make: *** [src/helloworld.o] ´íÎó 1
+21:24:26 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:111:7: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+       delay(50);
+       ^~~~~
+../src/helloworld.c:190:1: error: expected declaration or statement at end of input
+ }
+ ^
+make: *** [src/helloworld.o] ´íÎó 1
+21:30:56 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:10: fatal error: ctime: No such file or directory
+ #include <ctime>
+          ^~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] ´íÎó 1
+21:31:56 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:108:7: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+       sleep(50);
+       ^~~~~
+../src/helloworld.c:187:1: error: expected declaration or statement at end of input
+ }
+ ^
+make: *** [src/helloworld.o] ´íÎó 1
+21:42:01 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:108:27: error: 'INPUT' undeclared (first use in this function)
+      button1=(button1 * 9+INPUT * 10)/10; // do a moving average of the digital input... result button between 0 and 10
+                           ^~~~~
+../src/helloworld.c:108:27: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] ´íÎó 1
+21:43:16 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19928	   1144	  22568	  43640	   aa78	pong.elf
+'Finished building: pong.elf.size'
+' '
+21:43:21 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:45:01 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:111:26: warning: suggest parentheses around '+' in operand of '&' [-Wparentheses]
+      button1=(button1 * 9+gpiobtn[0] & 0b0001 * 10)/10; // do a moving average of the digital input... result button between 0 and 10
+               ~~~~~~~~~~~^~~~~~~~~~~
+../src/helloworld.c:112:26: warning: suggest parentheses around '+' in operand of '&' [-Wparentheses]
+      button2=(button2 * 9+gpiobtn[0] & 0b0010 * 10)/10;
+               ~~~~~~~~~~~^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19864	   1144	  22568	  43576	   aa38	pong.elf
+'Finished building: pong.elf.size'
+' '
+21:45:04 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:46:30 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19896	   1144	  22568	  43608	   aa58	pong.elf
+'Finished building: pong.elf.size'
+' '
+21:46:32 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:47:40 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19896	   1144	  22568	  43608	   aa58	pong.elf
+'Finished building: pong.elf.size'
+' '
+21:47:44 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:57:08 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:115:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:118:7: error: 'button1' undeclared (first use in this function)
+       button1 = 0;
+       ^~~~~~~
+../src/helloworld.c:118:7: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:119:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:122:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:130:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:133:12: error: 'button2' undeclared (first use in this function); did you mean 'button1'?
+            button2 = 0;
+            ^~~~~~~
+            button1
+../src/helloworld.c:134:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:137:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+make: *** [src/helloworld.o] ´íÎó 1
+21:57:12 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:115:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:118:7: error: 'button1' undeclared (first use in this function)
+       button1 = 0;
+       ^~~~~~~
+../src/helloworld.c:118:7: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:119:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:122:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:130:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:133:12: error: 'button2' undeclared (first use in this function); did you mean 'button1'?
+            button2 = 0;
+            ^~~~~~~
+            button1
+../src/helloworld.c:134:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:137:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+make: *** [src/helloworld.o] ´íÎó 1
+21:58:27 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:117:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:121:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:124:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:132:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:136:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:139:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20056	   1144	  22568	  43768	   aaf8	pong.elf
+'Finished building: pong.elf.size'
+' '
+21:58:30 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:59:15 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:117:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:121:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:124:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:132:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:136:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:139:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20016	   1144	  22568	  43728	   aad0	pong.elf
+'Finished building: pong.elf.size'
+' '
+21:59:18 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:04:29 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:117:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:121:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:124:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:132:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:136:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:139:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20016	   1144	  22568	  43728	   aad0	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:04:32 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:06:51 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:117:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:121:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:124:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:132:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:136:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:139:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20016	   1144	  22568	  43728	   aad0	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:06:53 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:08:10 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:117:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:121:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:124:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:132:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:136:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:139:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20020	   1144	  22568	  43732	   aad4	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:08:13 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:14:57 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:119:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:123:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:126:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:134:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:138:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:141:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+../src/helloworld.c:152:7: error: 'refresh_ball' undeclared (first use in this function); did you mean 'refresh'?
+       refresh_ball ++;
+       ^~~~~~~~~~~~
+       refresh
+../src/helloworld.c:152:7: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:153:7: error: 'refresh_paddle' undeclared (first use in this function); did you mean 'refresh_ball'?
+       refresh_paddle++;
+       ^~~~~~~~~~~~~~
+       refresh_ball
+../src/helloworld.c:85:7: warning: variable 'refresh' set but not used [-Wunused-but-set-variable]
+  uint refresh = 0;
+       ^~~~~~~
+make: *** [src/helloworld.o] ´íÎó 1
+22:15:09 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:118:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:122:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:125:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:133:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:137:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:140:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+../src/helloworld.c:151:7: error: 'refresh_ball' undeclared (first use in this function)
+       refresh_ball ++;
+       ^~~~~~~~~~~~
+../src/helloworld.c:151:7: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:152:7: error: 'refresh_paddle' undeclared (first use in this function); did you mean 'refresh_ball'?
+       refresh_paddle++;
+       ^~~~~~~~~~~~~~
+       refresh_ball
+../src/helloworld.c:234:8: error: 'refresh' undeclared (first use in this function)
+        refresh = 0;
+        ^~~~~~~
+make: *** [src/helloworld.o] ´íÎó 1
+22:15:39 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:118:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:122:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:125:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:133:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:137:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:140:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+../src/helloworld.c:151:7: error: 'refresh_ball' undeclared (first use in this function)
+       refresh_ball ++;
+       ^~~~~~~~~~~~
+../src/helloworld.c:151:7: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:152:7: error: 'refresh_paddle' undeclared (first use in this function); did you mean 'refresh_ball'?
+       refresh_paddle++;
+       ^~~~~~~~~~~~~~
+       refresh_ball
+make: *** [src/helloworld.o] ´íÎó 1
+22:16:19 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:122:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:126:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:129:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:137:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:141:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:144:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20060	   1144	  22568	  43772	   aafc	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:16:33 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:122:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:126:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:129:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:137:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:141:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:144:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20060	   1144	  22568	  43772	   aafc	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:16:35 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:17:17 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:122:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:126:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:129:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:137:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:141:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:144:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20068	   1144	  22568	  43780	   ab04	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:17:20 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:18:59 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:122:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:126:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:129:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:137:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:141:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:144:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20076	   1144	  22568	  43788	   ab0c	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:19:02 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:20:20 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:122:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:126:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:129:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:137:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:141:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:144:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20072	   1144	  22568	  43784	   ab08	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:28:01 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20072	   1144	  22568	  43784	   ab08	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:28:04 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:28:38 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20072	   1144	  22568	  43784	   ab08	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:28:40 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:30:25 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20080	   1144	  22568	  43792	   ab10	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:30:28 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:37:29 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20108	   1144	  22568	  43820	   ab2c	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:37:32 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:39:08 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20172	   1144	  22568	  43884	   ab6c	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:39:12 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:42:06 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+../src/helloworld.c:206:47: error: 'BALL_SIZE' undeclared (first use in this function); did you mean '_T_SIZE'?
+       if(L_R == RIGHT && X_BALL == pixels_x - BALL_SIZE && Y_BALL >= Y_PADDLE_RIGHT && Y_BALL <= Y_PADDLE_RIGHT + PADDLE_LEN)
+                                               ^~~~~~~~~
+                                               _T_SIZE
+../src/helloworld.c:206:47: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] ´íÎó 1
+22:42:21 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20184	   1144	  22568	  43896	   ab78	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:42:25 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:43:44 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+../src/helloworld.c:250:34: error: invalid type argument of unary '*' (have 'int')
+        Y_PADDLE_RIGHT = Y_BALL - *BOUND_THICK;
+                                  ^
+make: *** [src/helloworld.o] ´íÎó 1
+22:43:47 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20240	   1144	  22568	  43952	   abb0	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:43:49 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:47:04 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20252	   1144	  22568	  43964	   abbc	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:47:07 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:50:15 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20252	   1144	  22568	  43964	   abbc	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:50:18 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:51:42 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20268	   1144	  22568	  43980	   abcc	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:51:47 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:53:41 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20268	   1144	  22568	  43980	   abcc	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:53:45 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:56:22 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20276	   1144	  22568	  43988	   abd4	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:56:24 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:57:06 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20276	   1144	  22568	  43988	   abd4	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:57:08 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:58:14 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20232	   1144	  22568	  43944	   aba8	pong.elf
+'Finished building: pong.elf.size'
+' '
+22:58:16 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:59:03 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20196	   1144	  22568	  43908	   ab84	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:01:52 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20240	   1144	  22568	  43952	   abb0	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:01:55 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:05:20 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20240	   1144	  22568	  43952	   abb0	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:05:22 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:06:10 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20236	   1144	  22568	  43948	   abac	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:06:12 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:07:15 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20216	   1144	  22568	  43928	   ab98	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:07:22 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:07:56 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20216	   1144	  22568	  43928	   ab98	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:08:01 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:09:11 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20216	   1144	  22568	  43928	   ab98	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:09:12 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:10:25 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20216	   1144	  22568	  43928	   ab98	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:10:31 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:11:29 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20216	   1144	  22568	  43928	   ab98	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:11:33 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:15:01 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20216	   1144	  22568	  43928	   ab98	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:15:04 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:16:03 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20220	   1144	  22568	  43932	   ab9c	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:16:05 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:16:46 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20216	   1144	  22568	  43928	   ab98	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:18:20 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20256	   1144	  22568	  43968	   abc0	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:18:23 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:19:19 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20256	   1144	  22568	  43968	   abc0	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:19:22 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:20:21 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20296	   1144	  22568	  44008	   abe8	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:20:24 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:21:53 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20296	   1144	  22568	  44008	   abe8	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:21:57 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:24:02 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20296	   1144	  22568	  44008	   abe8	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:24:45 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+../src/helloworld.c:216:19: error: lvalue required as left operand of assignment
+        ball_speed -= 500;
+                   ^~
+../src/helloworld.c:222:25: error: lvalue required as left operand of assignment
+              ball_speed -= 500;
+                         ^~
+make: *** [src/helloworld.o] ´íÎó 1
+23:25:08 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:127:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:131:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:134:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:142:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:146:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:149:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+../src/helloworld.c:216:19: error: lvalue required as left operand of assignment
+        ball_speed = ball_speed - 500;
+                   ^
+../src/helloworld.c:222:25: error: lvalue required as left operand of assignment
+              ball_speed = ball_speed - 500;
+                         ^
+make: *** [src/helloworld.o] ´íÎó 1
+23:26:08 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:130:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:134:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:137:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:145:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:149:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:152:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20340	   1144	  22568	  44052	   ac14	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:26:18 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:130:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:134:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:137:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:145:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:149:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:152:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20340	   1144	  22568	  44052	   ac14	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:30:52 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:133:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:137:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:140:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:148:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:152:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:155:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20388	   1144	  22568	  44100	   ac44	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:30:55 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:33:16 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:133:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:137:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:140:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:148:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:152:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:155:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20396	   1144	  22568	  44108	   ac4c	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:33:44 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:133:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:137:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:140:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:148:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:152:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:155:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20396	   1144	  22568	  44108	   ac4c	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:33:47 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:35:24 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:133:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:137:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:140:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:148:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:152:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:155:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20396	   1144	  22568	  44108	   ac4c	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:35:26 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+23:37:04 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:133:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:137:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:140:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:148:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:152:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:155:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20396	   1144	  22568	  44108	   ac4c	pong.elf
+'Finished building: pong.elf.size'
+' '
+23:37:07 **** Incremental Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+00:13:45 **** Auto Build of configuration Debug for project pong ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:133:25: warning: comparison between pointer and integer
+      else if(debouncer1 < DEBOUNCE_TIME)
+                         ^
+../src/helloworld.c:137:25: warning: comparison between pointer and integer
+      else if(debouncer1 >= DEBOUNCE_TIME)
+                         ^~
+../src/helloworld.c:140:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       debouncer1 = DEBOUNCE_TIME;
+                  ^
+../src/helloworld.c:148:30: warning: comparison between pointer and integer
+           else if(debouncer2 < DEBOUNCE_TIME)
+                              ^
+../src/helloworld.c:152:30: warning: comparison between pointer and integer
+           else if(debouncer2 >= DEBOUNCE_TIME)
+                              ^~
+../src/helloworld.c:155:23: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+            debouncer2 = DEBOUNCE_TIME;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20396	   1144	  22568	  44108	   ac4c	pong.elf
+'Finished building: pong.elf.size'
+' '

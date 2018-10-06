@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="pong_bd_vga_controller_0_0_synth_1" LaunchDir="C:/Xilinx/Projects/pong_vga/pong_vga.runs/pong_bd_vga_controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pong_bd_image_source_0_0_synth_1" LaunchDir="C:/Xilinx/Projects/pong_vga/pong_vga.runs/pong_bd_image_source_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

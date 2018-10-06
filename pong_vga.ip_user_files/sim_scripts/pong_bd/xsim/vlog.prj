@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/ec67/hdl" --include "../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/5bb9/hdl/verilog" --include "../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/70fd/hdl" \
+"../../../bd/pong_bd/ip/pong_bd_processing_system7_0_0/sim/pong_bd_processing_system7_0_0.v" \
+"../../../bd/pong_bd/ip/pong_bd_xbar_0/sim/pong_bd_xbar_0.v" \
+"../../../bd/pong_bd/ip/pong_bd_auto_pc_0/sim/pong_bd_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
