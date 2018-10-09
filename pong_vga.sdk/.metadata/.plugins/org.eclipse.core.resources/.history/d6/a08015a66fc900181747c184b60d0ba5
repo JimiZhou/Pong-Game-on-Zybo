@@ -58,6 +58,7 @@
 #define GPIO_LED_ADDR 0x41220000
 
 #define BOUND_THICK 20
+#define PADDLE_WID 15
 #define PADDLE_LEN 70
 #define pixels_y 600
 #define pixels_x 800
@@ -69,19 +70,25 @@
 #define RIGHT 0
 
 #define DEBOUNCE_TIME 400
-#define ball_speed 1000
-#define paddle_speed 800
+
+
+#define X_BALL_INIT 400
+#define Y_BALL_INIT 300
+#define PADDLE_INIT 265
+#define BALL_SPEED_INIT 3000
+#define BALL_SPEED_MAX 1000
+#define PADDLE_SPEED_INIT 1500
 
 int main()
 {
-	uint16_t X_BALL = 100;
+  	uint16_t X_BALL = 100;
 	uint16_t Y_BALL = 200;
 	uint16_t Y_PADDLE_RIGHT,Y_PADDLE_LEFT;
 	uint32_t POS_BALL;
 	uint32_t Y_PADDLE;
 
 	uint U_D = UP;
-	uint L_R = LEFT;
+	uint L_R = RIGHT;
 
 	// Initialize the idle paddle position
 	Y_PADDLE_RIGHT = Y_PADDLE_LEFT =  265; //0.5*(pixels_y-PADDLE_LEN);
@@ -97,6 +104,14 @@ int main()
 	uint32_t * debouncer2 = 0;
 	unsigned char button1 = 0;
 	unsigned char button2 = 0;
+
+	//
+	uint ball_speed = BALL_SPEED_INIT;
+	uint paddle_speed = PADDLE_SPEED_INIT;
+
+	//
+	uint refresh_ball = 0;
+	uint refresh_paddle = 0;
 
 	// Initialize the platform
     init_platform();
@@ -139,11 +154,6 @@ int main()
     	    		button2 = 0;
     	    		debouncer2 = DEBOUNCE_TIME;
     	    	}
-
-
-
-
-
 
     	// Generate output
     	if(*pong_vga_sync & 0x1)
@@ -188,17 +198,39 @@ int main()
     		    		    	                         //the button is OFF
     		    		    	                	  gpioleds[0] = 0b0000;
     		    		    	                  }
+    		    		    	         refresh_paddle = 0;
     	}
+
+
 
     	if(refresh_ball == ball_speed)
     	{
     		if(L_R == LEFT && X_BALL == 0)
+    		{
+    			// You lose
+    			X_BALL = X_BALL_INIT;
+    			Y_BALL = Y_BALL_INIT;
+    			ball_speed = BALL_SPEED_INIT;
+    		}
+    		if(L_R == RIGHT && X_BALL == pixels_x - ball_size && Y_BALL >= Y_PADDLE_RIGHT && Y_BALL <= Y_PADDLE_RIGHT + PADDLE_LEN)
+    		{
+    			// AI lose
+    			X_BALL = X_BALL_INIT;
+    			Y_BALL = Y_BALL_INIT;
+    		}
+    		if(L_R == LEFT && X_BALL == PADDLE_WID && Y_BALL > Y_PADDLE_LEFT -2*BOUND_THICK && Y_BALL < Y_PADDLE_LEFT - BOUND_THICK + PADDLE_LEN + ball_size)
+    		{
+    			// You caught the ball with paddle
+    			L_R = RIGHT;
+    			if(ball_speed<1000) ball_speed = BALL_SPEED_MAX;
+    		    else ball_speed -= 800;
+    		}
+    		if(L_R == RIGHT && X_BALL == pixels_x - ball_size - PADDLE_WID && Y_BALL > Y_PADDLE_RIGHT -2*BOUND_THICK && Y_BALL < Y_PADDLE_RIGHT -2*BOUND_THICK + PADDLE_LEN+ ball_size)
     		    		{
-    		    			L_R = RIGHT;
-    		    		}
-    		    		if(L_R == RIGHT && X_BALL == pixels_x - ball_size)
-    		    		{
-    		    		    L_R = LEFT;
+    		    			// AI caught the ball with paddle
+    		    			L_R = LEFT;
+      		    			if(ball_speed<1000) ball_speed = BALL_SPEED_MAX;
+    		    			else ball_speed -= 500;
     		    		}
 
     		    		if(L_R == LEFT)
@@ -228,10 +260,12 @@ int main()
 
     		 POS_BALL = (uint32_t) Y_BALL << 16 | X_BALL;
     		 *pong_vga_pos_ball = POS_BALL;
+    		 Y_PADDLE_RIGHT = Y_BALL;
+    		 if(Y_PADDLE_RIGHT>pixels_y - 2*BOUND_THICK - PADDLE_LEN)Y_PADDLE_RIGHT = pixels_y - 2*BOUND_THICK -PADDLE_LEN;
     		 Y_PADDLE = (uint32_t) Y_PADDLE_RIGHT << 16 | Y_PADDLE_LEFT;
     		 *pong_vga_y_paddle = Y_PADDLE;
 
-    		 refresh = 0;
+    		 refresh_ball = 0;
     	}
     }
 

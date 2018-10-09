@@ -218,19 +218,19 @@ int main()
     			X_BALL = X_BALL_INIT;
     			Y_BALL = Y_BALL_INIT;
     		}
-    		if(L_R == LEFT && X_BALL == PADDLE_WID && Y_BALL > Y_PADDLE_LEFT - BOUND_THICK + ball_size && Y_BALL < Y_PADDLE_LEFT - BOUND_THICK + PADDLE_LEN + ball_size)
+    		if(L_R == LEFT && X_BALL == PADDLE_WID && Y_BALL > Y_PADDLE_LEFT -2*BOUND_THICK && Y_BALL < Y_PADDLE_LEFT - BOUND_THICK + PADDLE_LEN + ball_size)
     		{
     			// You caught the ball with paddle
     			L_R = RIGHT;
-    			//if(ball_speed<1000) ball_speed = BALL_SPEED_MAX;
-    		    //else ball_speed -= 800;
+    			if(ball_speed<1000) ball_speed = BALL_SPEED_MAX;
+    		    else ball_speed -= 800;
     		}
     		if(L_R == RIGHT && X_BALL == pixels_x - ball_size - PADDLE_WID && Y_BALL > Y_PADDLE_RIGHT -2*BOUND_THICK && Y_BALL < Y_PADDLE_RIGHT -2*BOUND_THICK + PADDLE_LEN+ ball_size)
     		    		{
     		    			// AI caught the ball with paddle
     		    			L_R = LEFT;
-      		    			//if(ball_speed<1000) ball_speed = BALL_SPEED_MAX;
-    		    			//else ball_speed -= 500;
+      		    			if(ball_speed<1000) ball_speed = BALL_SPEED_MAX;
+    		    			else ball_speed -= 500;
     		    		}
 
     		    		if(L_R == LEFT)

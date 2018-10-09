@@ -1,4 +1,4 @@
-00:13:45 **** Auto Build of configuration Debug for project pong ****
+12:58:50 **** Incremental Build of configuration Debug for project pong ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
@@ -34,9 +34,9 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size pong.elf  |tee "pong.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  20396	   1144	  22568	  44108	   ac4c	pong.elf
+  20324	   1144	  22568	  44036	   ac04	pong.elf
 'Finished building: pong.elf.size'
 ' '
 
-00:13:46 Build Finished (took 754ms)
+12:58:52 Build Finished (took 2s.395ms)
 

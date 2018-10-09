@@ -43,7 +43,7 @@ preplace netloc vga_controller_0_hsync 1 3 2 NJ 300 NJ
 preplace netloc axi_gpio_1_GPIO 1 4 1 NJ
 preplace netloc ps7_0_axi_periph_M00_AXI 1 3 1 1220
 preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 1 2 NJ 590 840
-levelinfo -pg 1 0 200 600 1010 1420 1660 -top 0 -bot 1060
+levelinfo -pg 1 0 200 600 1010 1420 1670 -top 0 -bot 1060
 ",
 }
 {

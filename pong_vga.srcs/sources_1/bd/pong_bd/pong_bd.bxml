@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="36">
   <CompositeFile CompositeFileTopName="pong_bd" CanBeSetAsTop="true" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="RESET" Timestamp="1538813594"/>
-    <Generation Name="IMPLEMENTATION" State="RESET" Timestamp="1538813594"/>
-    <Generation Name="SIMULATION" State="RESET" Timestamp="1538813594"/>
-    <Generation Name="HW_HANDOFF" State="RESET" Timestamp="1538813594"/>
+    <Generation Name="SYNTHESIS" State="RESET" Timestamp="1539075168"/>
+    <Generation Name="IMPLEMENTATION" State="RESET" Timestamp="1539075168"/>
+    <Generation Name="SIMULATION" State="RESET" Timestamp="1539075168"/>
+    <Generation Name="HW_HANDOFF" State="RESET" Timestamp="1539075168"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="synth\pong_bd.vhd" Type="VHDL">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
