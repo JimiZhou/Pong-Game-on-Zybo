@@ -1,10 +1,10 @@
 # Pong Game on Xilinx Zybo
 ## Block Diagram
 ![Block Diagram](https://github.com/JimiZhou/Pong-Game-on-Zybo/blob/master/Block-Diagram.jpg)
-## Todos
-
- - Improve Game Logic
- - Display characters using VGA controller
+## Features
+- 800x600@60Hz VGA Display
+- Two players
+- Score board
 
 ## License
 
