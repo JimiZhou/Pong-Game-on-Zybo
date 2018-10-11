@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Oct  5 18:56:28 2018" VIVADOVERSION="2018.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Oct 11 17:02:19 2018" VIVADOVERSION="2018.2">
 
   <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo:part0:1.0" DEVICE="7z010" NAME="pong_bd" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -861,6 +861,26 @@
             <CONNECTION INSTANCE="pong_vga_regs_0" PORT="pos_ball_y_ball"/>
           </CONNECTIONS>
         </PORT>
+        <PORT DIR="I" LEFT="15" NAME="score_left_x" RIGHT="0" SIGIS="undef" SIGNAME="pong_vga_regs_0_score_position_score_left_x">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pong_vga_regs_0" PORT="score_position_score_left_x"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="score_right_x" RIGHT="0" SIGIS="undef" SIGNAME="pong_vga_regs_0_score_position_score_right_x">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pong_vga_regs_0" PORT="score_position_score_right_x"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="score_number_left" RIGHT="0" SIGIS="undef" SIGNAME="pong_vga_regs_0_score_number_score_number_left">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pong_vga_regs_0" PORT="score_number_score_number_left"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="score_number_right" RIGHT="0" SIGIS="undef" SIGNAME="pong_vga_regs_0_score_number_score_number_right">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pong_vga_regs_0" PORT="score_number_score_number_right"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT DIR="I" LEFT="15" NAME="Y_PADDLE_LEFT" RIGHT="0" SIGIS="undef" SIGNAME="pong_vga_regs_0_y_paddle_y_paddle_left">
           <CONNECTIONS>
             <CONNECTION INSTANCE="pong_vga_regs_0" PORT="y_paddle_y_paddle_left"/>
@@ -897,7 +917,7 @@
       <PARAMETERS>
         <PARAMETER NAME="AXI_ADDR_WIDTH" VALUE="32"/>
         <PARAMETER NAME="BASEADDR" VALUE="0x40000000"/>
-        <PARAMETER NAME="Component_Name" VALUE="pong_bd_pong_vga_regs_0_1"/>
+        <PARAMETER NAME="Component_Name" VALUE="pong_bd_pong_vga_regs_0_0"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
         <PARAMETER NAME="C_BASEADDR" VALUE="0x40000000"/>
         <PARAMETER NAME="C_HIGHADDR" VALUE="0x4000FFFF"/>
@@ -1034,6 +1054,28 @@
         <PORT DIR="I" LEFT="0" NAME="sync_sync" RIGHT="0" SIGIS="undef" SIGNAME="vga_controller_0_vsync">
           <CONNECTIONS>
             <CONNECTION INSTANCE="vga_controller_0" PORT="vsync"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="score_position_strobe" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="15" NAME="score_position_score_right_x" RIGHT="0" SIGIS="undef" SIGNAME="pong_vga_regs_0_score_position_score_right_x">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="image_source_0" PORT="score_right_x"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="score_position_score_left_x" RIGHT="0" SIGIS="undef" SIGNAME="pong_vga_regs_0_score_position_score_left_x">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="image_source_0" PORT="score_left_x"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="score_number_strobe" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="15" NAME="score_number_score_number_left" RIGHT="0" SIGIS="undef" SIGNAME="pong_vga_regs_0_score_number_score_number_left">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="image_source_0" PORT="score_number_left"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="score_number_score_number_right" RIGHT="0" SIGIS="undef" SIGNAME="pong_vga_regs_0_score_number_score_number_right">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="image_source_0" PORT="score_number_right"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -2245,16 +2287,16 @@
           <CONNECTIONS>
             <CONNECTION INSTANCE="rst_ps7_0_100M" PORT="slowest_sync_clk"/>
             <CONNECTION INSTANCE="processing_system7_0" PORT="M_AXI_GP0_ACLK"/>
-            <CONNECTION INSTANCE="image_source_0" PORT="clk"/>
             <CONNECTION INSTANCE="axi_gpio_0" PORT="s_axi_aclk"/>
             <CONNECTION INSTANCE="axi_gpio_1" PORT="s_axi_aclk"/>
-            <CONNECTION INSTANCE="pong_vga_regs_0" PORT="axi_aclk"/>
+            <CONNECTION INSTANCE="vga_controller_0" PORT="clk"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="S00_ACLK"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="M00_ACLK"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="ACLK"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="M01_ACLK"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="M02_ACLK"/>
-            <CONNECTION INSTANCE="vga_controller_0" PORT="clk"/>
+            <CONNECTION INSTANCE="pong_vga_regs_0" PORT="axi_aclk"/>
+            <CONNECTION INSTANCE="image_source_0" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="FCLK_RESET0_N" SIGIS="rst" SIGNAME="processing_system7_0_FCLK_RESET0_N">
@@ -3418,12 +3460,12 @@
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_gpio_0" PORT="s_axi_aresetn"/>
             <CONNECTION INSTANCE="axi_gpio_1" PORT="s_axi_aresetn"/>
-            <CONNECTION INSTANCE="pong_vga_regs_0" PORT="axi_aresetn"/>
+            <CONNECTION INSTANCE="vga_controller_0" PORT="reset"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="S00_ARESETN"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="M00_ARESETN"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="M01_ARESETN"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="M02_ARESETN"/>
-            <CONNECTION INSTANCE="vga_controller_0" PORT="reset"/>
+            <CONNECTION INSTANCE="pong_vga_regs_0" PORT="axi_aresetn"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>

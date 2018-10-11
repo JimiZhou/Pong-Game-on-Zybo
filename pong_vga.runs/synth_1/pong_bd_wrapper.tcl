@@ -33,7 +33,7 @@ set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
 set_property ip_output_repo c:/Xilinx/Projects/pong_vga/pong_vga.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
-  C:/Xilinx/Projects/Pong_Game/VGA_Controller.vhd
+  C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/Pong_Game/VGA_Controller.vhd
   C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/new/image_source.vhd
   C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/pong_vga/pong_vga_regs_pkg.vhd
   C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/pong_vga/pong_vga_regs.vhd

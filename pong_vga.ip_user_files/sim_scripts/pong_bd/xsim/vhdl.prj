@@ -2,8 +2,9 @@ vhdl xil_defaultlib  \
 "../../../bd/pong_bd/sim/pong_bd.vhd" \
 "../../../bd/pong_bd/ip/pong_bd_vga_controller_0_0/sim/pong_bd_vga_controller_0_0.vhd" \
 "../../../bd/pong_bd/ip/pong_bd_image_source_0_0/sim/pong_bd_image_source_0_0.vhd" \
-"../../../bd/pong_bd/ip/pong_bd_pong_vga_regs_0_0/sim/pong_bd_pong_vga_regs_0_0.vhd" \
 "../../../bd/pong_bd/ip/pong_bd_rst_ps7_0_100M_0/sim/pong_bd_rst_ps7_0_100M_0.vhd" \
 "../../../bd/pong_bd/ip/pong_bd_axi_gpio_0_0/sim/pong_bd_axi_gpio_0_0.vhd" \
+"../../../bd/pong_bd/ip/pong_bd_axi_gpio_1_0/sim/pong_bd_axi_gpio_1_0.vhd" \
+"../../../bd/pong_bd/ip/pong_bd_pong_vga_regs_0_0/sim/pong_bd_pong_vga_regs_0_0.vhd" \
 
 nosort

@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-| Date             : Fri Oct  5 19:00:53 2018
+| Date             : Thu Oct 11 17:08:10 2018
 | Host             : Aspire running 64-bit major release  (build 9200)
 | Command          : report_power -file pong_bd_wrapper_power_routed.rpt -pb pong_bd_wrapper_power_summary_routed.pb -rpx pong_bd_wrapper_power_routed.rpx
 | Design           : pong_bd_wrapper
@@ -33,7 +33,7 @@ Table of Contents
 | Total On-Chip Power (W)  | 1.685        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.561        |
+| Dynamic (W)              | 1.562        |
 | Device Static (W)        | 0.124        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 65.6         |
@@ -53,14 +53,15 @@ Table of Contents
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
 | Clocks                  |     0.003 |        3 |       --- |             --- |
-| Slice Logic             |    <0.001 |     5003 |       --- |             --- |
-|   LUT as Logic          |    <0.001 |     1981 |     17600 |           11.26 |
-|   Register              |    <0.001 |     1203 |     35200 |            3.42 |
-|   CARRY4                |    <0.001 |      565 |      4400 |           12.84 |
+| Slice Logic             |     0.001 |     7746 |       --- |             --- |
+|   LUT as Logic          |     0.001 |     3772 |     17600 |           21.43 |
+|   CARRY4                |    <0.001 |      816 |      4400 |           18.55 |
+|   Register              |    <0.001 |     1267 |     35200 |            3.60 |
 |   LUT as Shift Register |    <0.001 |       62 |      6000 |            1.03 |
-|   Others                |     0.000 |      736 |       --- |             --- |
-| Signals                 |     0.001 |     3368 |       --- |             --- |
-| I/O                     |     0.001 |       26 |       100 |           26.00 |
+|   F7/F8 Muxes           |    <0.001 |        3 |     17600 |            0.02 |
+|   Others                |     0.000 |      993 |       --- |             --- |
+| Signals                 |     0.002 |     5520 |       --- |             --- |
+| I/O                     |    <0.001 |       26 |       100 |           26.00 |
 | PS7                     |     1.555 |        1 |       --- |             --- |
 | Static Power            |     0.124 |          |           |                 |
 | Total                   |     1.685 |          |           |                 |
@@ -73,7 +74,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.012 |       0.005 |      0.007 |
+| Vccint    |       1.000 |     0.013 |       0.006 |      0.007 |
 | Vccaux    |       1.800 |     0.008 |       0.000 |      0.008 |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -149,12 +150,12 @@ Table of Contents
 +-----------------------------------------------------------------------------+-----------+
 | Name                                                                        | Power (W) |
 +-----------------------------------------------------------------------------+-----------+
-| pong_bd_wrapper                                                             |     1.561 |
+| pong_bd_wrapper                                                             |     1.562 |
 |   leds_4bits_tri_iobuf_0                                                    |    <0.001 |
 |   leds_4bits_tri_iobuf_1                                                    |    <0.001 |
 |   leds_4bits_tri_iobuf_2                                                    |    <0.001 |
 |   leds_4bits_tri_iobuf_3                                                    |    <0.001 |
-|   pong_bd_i                                                                 |     1.560 |
+|   pong_bd_i                                                                 |     1.561 |
 |     axi_gpio_0                                                              |    <0.001 |
 |       U0                                                                    |    <0.001 |
 |         AXI_LITE_IPIF_I                                                     |    <0.001 |

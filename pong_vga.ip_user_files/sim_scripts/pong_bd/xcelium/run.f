@@ -40,9 +40,6 @@
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/pong_bd/ip/pong_bd_processing_system7_0_0/sim/pong_bd_processing_system7_0_0.v" \
 -endlib
--makelib xcelium_lib/xil_defaultlib \
-  "../../../bd/pong_bd/ip/pong_bd_pong_vga_regs_0_0/sim/pong_bd_pong_vga_regs_0_0.vhd" \
--endlib
 -makelib xcelium_lib/lib_cdc_v1_0_2 \
   "../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd" \
 -endlib
@@ -87,6 +84,10 @@
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/pong_bd/ip/pong_bd_xbar_0/sim/pong_bd_xbar_0.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/pong_bd/ip/pong_bd_axi_gpio_1_0/sim/pong_bd_axi_gpio_1_0.vhd" \
+  "../../../bd/pong_bd/ip/pong_bd_pong_vga_regs_0_0/sim/pong_bd_pong_vga_regs_0_0.vhd" \
 -endlib
 -makelib xcelium_lib/axi_protocol_converter_v2_1_17 \
   "../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/ccfb/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \

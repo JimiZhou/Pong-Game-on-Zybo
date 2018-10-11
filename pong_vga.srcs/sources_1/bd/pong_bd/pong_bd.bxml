@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="36">
   <CompositeFile CompositeFileTopName="pong_bd" CanBeSetAsTop="true" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="RESET" Timestamp="1539075168"/>
-    <Generation Name="IMPLEMENTATION" State="RESET" Timestamp="1539075168"/>
-    <Generation Name="SIMULATION" State="RESET" Timestamp="1539075168"/>
-    <Generation Name="HW_HANDOFF" State="RESET" Timestamp="1539075168"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1539270139"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1539270139"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1539270139"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1539270139"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="synth\pong_bd.vhd" Type="VHDL">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
@@ -81,7 +81,7 @@
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip\pong_bd_pong_vga_regs_0_1\pong_bd_pong_vga_regs_0_1.xci" Type="IP">
+      <File Name="ip\pong_bd_pong_vga_regs_0_0\pong_bd_pong_vga_regs_0_0.xci" Type="IP">
         <Instance HierarchyPath="pong_vga_regs_0"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>

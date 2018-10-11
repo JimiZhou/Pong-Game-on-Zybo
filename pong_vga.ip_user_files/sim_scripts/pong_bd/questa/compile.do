@@ -83,9 +83,6 @@ vlog -work processing_system7_vip_v1_0_5 -64 -sv -L smartconnect_v1_0 -L axi_pro
 vlog -work xil_defaultlib -64 "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/ec67/hdl" "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/5bb9/hdl/verilog" "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/70fd/hdl" "+incdir+C:/Xilinx/Vivado/2018.2/data/xilinx_vip/include" "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/ec67/hdl" "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/5bb9/hdl/verilog" "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/70fd/hdl" "+incdir+C:/Xilinx/Vivado/2018.2/data/xilinx_vip/include" \
 "../../../bd/pong_bd/ip/pong_bd_processing_system7_0_0/sim/pong_bd_processing_system7_0_0.v" \
 
-vcom -work xil_defaultlib -64 -93 \
-"../../../bd/pong_bd/ip/pong_bd_pong_vga_regs_0_0/sim/pong_bd_pong_vga_regs_0_0.vhd" \
-
 vcom -work lib_cdc_v1_0_2 -64 -93 \
 "../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd" \
 
@@ -130,6 +127,10 @@ vlog -work axi_crossbar_v2_1_18 -64 "+incdir+../../../../pong_vga.srcs/sources_1
 
 vlog -work xil_defaultlib -64 "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/ec67/hdl" "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/5bb9/hdl/verilog" "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/70fd/hdl" "+incdir+C:/Xilinx/Vivado/2018.2/data/xilinx_vip/include" "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/ec67/hdl" "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/5bb9/hdl/verilog" "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/70fd/hdl" "+incdir+C:/Xilinx/Vivado/2018.2/data/xilinx_vip/include" \
 "../../../bd/pong_bd/ip/pong_bd_xbar_0/sim/pong_bd_xbar_0.v" \
+
+vcom -work xil_defaultlib -64 -93 \
+"../../../bd/pong_bd/ip/pong_bd_axi_gpio_1_0/sim/pong_bd_axi_gpio_1_0.vhd" \
+"../../../bd/pong_bd/ip/pong_bd_pong_vga_regs_0_0/sim/pong_bd_pong_vga_regs_0_0.vhd" \
 
 vlog -work axi_protocol_converter_v2_1_17 -64 "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/ec67/hdl" "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/5bb9/hdl/verilog" "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/70fd/hdl" "+incdir+C:/Xilinx/Vivado/2018.2/data/xilinx_vip/include" "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/ec67/hdl" "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/5bb9/hdl/verilog" "+incdir+../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/70fd/hdl" "+incdir+C:/Xilinx/Vivado/2018.2/data/xilinx_vip/include" \
 "../../../../pong_vga.srcs/sources_1/bd/pong_bd/ipshared/ccfb/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \

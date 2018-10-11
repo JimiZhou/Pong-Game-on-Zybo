@@ -1,7 +1,7 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
---Date        : Fri Oct  5 18:56:27 2018
+--Date        : Thu Oct 11 17:02:18 2018
 --Host        : Aspire running 64-bit major release  (build 9200)
 --Command     : generate_target pong_bd.bd
 --Design      : pong_bd
@@ -1377,7 +1377,7 @@ entity pong_bd is
     vsync_0 : out STD_LOGIC
   );
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of pong_bd : entity is "pong_bd,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=pong_bd,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=14,numReposBlks=9,numNonXlnxBlks=0,numHierBlks=5,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=3,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=4,da_board_cnt=2,da_clkrst_cnt=3,da_ps7_cnt=1,synth_mode=Global}";
+  attribute CORE_GENERATION_INFO of pong_bd : entity is "pong_bd,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=pong_bd,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=14,numReposBlks=9,numNonXlnxBlks=0,numHierBlks=5,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=3,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=7,da_board_cnt=2,da_clkrst_cnt=3,da_ps7_cnt=1,synth_mode=Global}";
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of pong_bd : entity is "pong_bd.hwdef";
 end pong_bd;
@@ -1460,21 +1460,6 @@ architecture STRUCTURE of pong_bd is
     PS_PORB : inout STD_LOGIC
   );
   end component pong_bd_processing_system7_0_0;
-  component pong_bd_image_source_0_0 is
-  port (
-    clk : in STD_LOGIC;
-    disp_en : in STD_LOGIC;
-    X : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    Y : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    X_BALL : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    Y_BALL : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    Y_PADDLE_LEFT : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    Y_PADDLE_RIGHT : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    red : out STD_LOGIC_VECTOR ( 4 downto 0 );
-    green : out STD_LOGIC_VECTOR ( 5 downto 0 );
-    blue : out STD_LOGIC_VECTOR ( 4 downto 0 )
-  );
-  end component pong_bd_image_source_0_0;
   component pong_bd_rst_ps7_0_100M_0 is
   port (
     slowest_sync_clk : in STD_LOGIC;
@@ -1539,7 +1524,18 @@ architecture STRUCTURE of pong_bd is
     gpio_io_t : out STD_LOGIC_VECTOR ( 3 downto 0 )
   );
   end component pong_bd_axi_gpio_1_0;
-  component pong_bd_pong_vga_regs_0_1 is
+  component pong_bd_vga_controller_0_0 is
+  port (
+    clk : in STD_LOGIC;
+    reset : in STD_LOGIC;
+    X : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    Y : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    hsync : out STD_LOGIC;
+    vsync : out STD_LOGIC;
+    disp_en : out STD_LOGIC
+  );
+  end component pong_bd_vga_controller_0_0;
+  component pong_bd_pong_vga_regs_0_0 is
   port (
     axi_aclk : in STD_LOGIC;
     axi_aresetn : in STD_LOGIC;
@@ -1569,20 +1565,34 @@ architecture STRUCTURE of pong_bd is
     y_paddle_y_paddle_left : out STD_LOGIC_VECTOR ( 15 downto 0 );
     y_paddle_y_paddle_right : out STD_LOGIC_VECTOR ( 15 downto 0 );
     sync_strobe : out STD_LOGIC;
-    sync_sync : in STD_LOGIC_VECTOR ( 0 to 0 )
+    sync_sync : in STD_LOGIC_VECTOR ( 0 to 0 );
+    score_position_strobe : out STD_LOGIC;
+    score_position_score_right_x : out STD_LOGIC_VECTOR ( 15 downto 0 );
+    score_position_score_left_x : out STD_LOGIC_VECTOR ( 15 downto 0 );
+    score_number_strobe : out STD_LOGIC;
+    score_number_score_number_left : out STD_LOGIC_VECTOR ( 15 downto 0 );
+    score_number_score_number_right : out STD_LOGIC_VECTOR ( 15 downto 0 )
   );
-  end component pong_bd_pong_vga_regs_0_1;
-  component pong_bd_vga_controller_0_0 is
+  end component pong_bd_pong_vga_regs_0_0;
+  component pong_bd_image_source_0_0 is
   port (
     clk : in STD_LOGIC;
-    reset : in STD_LOGIC;
-    X : out STD_LOGIC_VECTOR ( 31 downto 0 );
-    Y : out STD_LOGIC_VECTOR ( 31 downto 0 );
-    hsync : out STD_LOGIC;
-    vsync : out STD_LOGIC;
-    disp_en : out STD_LOGIC
+    disp_en : in STD_LOGIC;
+    X : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    Y : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    X_BALL : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    Y_BALL : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    score_left_x : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    score_right_x : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    score_number_left : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    score_number_right : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    Y_PADDLE_LEFT : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    Y_PADDLE_RIGHT : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    red : out STD_LOGIC_VECTOR ( 4 downto 0 );
+    green : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    blue : out STD_LOGIC_VECTOR ( 4 downto 0 )
   );
-  end component pong_bd_vga_controller_0_0;
+  end component pong_bd_image_source_0_0;
   signal axi_gpio_0_GPIO_TRI_I : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal axi_gpio_1_GPIO_TRI_I : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal axi_gpio_1_GPIO_TRI_O : STD_LOGIC_VECTOR ( 3 downto 0 );
@@ -1592,6 +1602,10 @@ architecture STRUCTURE of pong_bd is
   signal image_source_0_red : STD_LOGIC_VECTOR ( 4 downto 0 );
   signal pong_vga_regs_0_pos_ball_x_ball : STD_LOGIC_VECTOR ( 15 downto 0 );
   signal pong_vga_regs_0_pos_ball_y_ball : STD_LOGIC_VECTOR ( 15 downto 0 );
+  signal pong_vga_regs_0_score_number_score_number_left : STD_LOGIC_VECTOR ( 15 downto 0 );
+  signal pong_vga_regs_0_score_number_score_number_right : STD_LOGIC_VECTOR ( 15 downto 0 );
+  signal pong_vga_regs_0_score_position_score_left_x : STD_LOGIC_VECTOR ( 15 downto 0 );
+  signal pong_vga_regs_0_score_position_score_right_x : STD_LOGIC_VECTOR ( 15 downto 0 );
   signal pong_vga_regs_0_y_paddle_y_paddle_left : STD_LOGIC_VECTOR ( 15 downto 0 );
   signal pong_vga_regs_0_y_paddle_y_paddle_right : STD_LOGIC_VECTOR ( 15 downto 0 );
   signal processing_system7_0_DDR_ADDR : STD_LOGIC_VECTOR ( 14 downto 0 );
@@ -1716,6 +1730,8 @@ architecture STRUCTURE of pong_bd is
   signal vga_controller_0_hsync : STD_LOGIC;
   signal vga_controller_0_vsync : STD_LOGIC;
   signal NLW_pong_vga_regs_0_pos_ball_strobe_UNCONNECTED : STD_LOGIC;
+  signal NLW_pong_vga_regs_0_score_number_strobe_UNCONNECTED : STD_LOGIC;
+  signal NLW_pong_vga_regs_0_score_position_strobe_UNCONNECTED : STD_LOGIC;
   signal NLW_pong_vga_regs_0_sync_strobe_UNCONNECTED : STD_LOGIC;
   signal NLW_pong_vga_regs_0_y_paddle_strobe_UNCONNECTED : STD_LOGIC;
   signal NLW_processing_system7_0_ENET0_MDIO_MDC_UNCONNECTED : STD_LOGIC;
@@ -1828,9 +1844,13 @@ image_source_0: component pong_bd_image_source_0_0
       clk => processing_system7_0_FCLK_CLK0,
       disp_en => vga_controller_0_disp_en,
       green(5 downto 0) => image_source_0_green(5 downto 0),
-      red(4 downto 0) => image_source_0_red(4 downto 0)
+      red(4 downto 0) => image_source_0_red(4 downto 0),
+      score_left_x(15 downto 0) => pong_vga_regs_0_score_position_score_left_x(15 downto 0),
+      score_number_left(15 downto 0) => pong_vga_regs_0_score_number_score_number_left(15 downto 0),
+      score_number_right(15 downto 0) => pong_vga_regs_0_score_number_score_number_right(15 downto 0),
+      score_right_x(15 downto 0) => pong_vga_regs_0_score_position_score_right_x(15 downto 0)
     );
-pong_vga_regs_0: component pong_bd_pong_vga_regs_0_1
+pong_vga_regs_0: component pong_bd_pong_vga_regs_0_0
      port map (
       axi_aclk => processing_system7_0_FCLK_CLK0,
       axi_aresetn => rst_ps7_0_100M_peripheral_aresetn(0),
@@ -1856,6 +1876,12 @@ pong_vga_regs_0: component pong_bd_pong_vga_regs_0_1
       s_axi_wready => ps7_0_axi_periph_M00_AXI_WREADY,
       s_axi_wstrb(3 downto 0) => ps7_0_axi_periph_M00_AXI_WSTRB(3 downto 0),
       s_axi_wvalid => ps7_0_axi_periph_M00_AXI_WVALID,
+      score_number_score_number_left(15 downto 0) => pong_vga_regs_0_score_number_score_number_left(15 downto 0),
+      score_number_score_number_right(15 downto 0) => pong_vga_regs_0_score_number_score_number_right(15 downto 0),
+      score_number_strobe => NLW_pong_vga_regs_0_score_number_strobe_UNCONNECTED,
+      score_position_score_left_x(15 downto 0) => pong_vga_regs_0_score_position_score_left_x(15 downto 0),
+      score_position_score_right_x(15 downto 0) => pong_vga_regs_0_score_position_score_right_x(15 downto 0),
+      score_position_strobe => NLW_pong_vga_regs_0_score_position_strobe_UNCONNECTED,
       sync_strobe => NLW_pong_vga_regs_0_sync_strobe_UNCONNECTED,
       sync_sync(0) => vga_controller_0_vsync,
       y_paddle_strobe => NLW_pong_vga_regs_0_y_paddle_strobe_UNCONNECTED,

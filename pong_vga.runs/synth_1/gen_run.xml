@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1538758590">
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1539270142">
   <File Type="PA-TCL" Name="pong_bd_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="pong_bd_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="pong_bd_wrapper_reports.tcl"/>
   <File Type="RDS-RDS" Name="pong_bd_wrapper.vds"/>
   <File Type="RDS-UTIL" Name="pong_bd_wrapper_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="pong_bd_wrapper_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="pong_bd_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="pong_bd_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="pong_bd_wrapper_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/Pong_Game/VGA_Controller.vhd">
@@ -25,7 +28,7 @@
     <File Path="$PSRCDIR/sources_1/imports/pong_vga/pong_vga_regs_pkg.vhd">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/pong_vga_regs_pkg.vhd"/>
-        <Attr Name="ImportTime" Val="1538756059"/>
+        <Attr Name="ImportTime" Val="1539249998"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -33,7 +36,7 @@
     <File Path="$PSRCDIR/sources_1/imports/pong_vga/pong_vga_regs.vhd">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/pong_vga_regs.vhd"/>
-        <Attr Name="ImportTime" Val="1538756061"/>
+        <Attr Name="ImportTime" Val="1539249999"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>

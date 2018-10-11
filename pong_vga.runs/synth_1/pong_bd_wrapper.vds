@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Fri Oct  5 18:56:35 2018
-# Process ID: 10096
+# Start of session at: Thu Oct 11 17:02:27 2018
+# Process ID: 12668
 # Current directory: C:/Xilinx/Projects/pong_vga/pong_vga.runs/synth_1
 # Command line: vivado.exe -log pong_bd_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pong_bd_wrapper.tcl
 # Log file: C:/Xilinx/Projects/pong_vga/pong_vga.runs/synth_1/pong_bd_wrapper.vds
@@ -14,15 +14,15 @@ source pong_bd_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
-add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 307.340 ; gain = 51.664
+add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 307.344 ; gain = 52.020
 Command: synth_design -top pong_bd_wrapper -part xc7z010clg400-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 196 
+INFO: Helper process launched with PID 552 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 421.973 ; gain = 107.633
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 424.188 ; gain = 109.867
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'pong_bd_wrapper' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/hdl/pong_bd_wrapper.vhd:47]
 INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660' bound to instance 'leds_4bits_tri_iobuf_0' of component 'IOBUF' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/hdl/pong_bd_wrapper.vhd:107]
@@ -37,7 +37,7 @@ INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2018.2/scripts
 INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660' bound to instance 'leds_4bits_tri_iobuf_3' of component 'IOBUF' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/hdl/pong_bd_wrapper.vhd:128]
 INFO: [Synth 8-3491] module 'pong_bd' declared at 'C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:1346' bound to instance 'pong_bd_i' of component 'pong_bd' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/hdl/pong_bd_wrapper.vhd:135]
 INFO: [Synth 8-638] synthesizing module 'pong_bd' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:1385]
-INFO: [Synth 8-3491] module 'pong_bd_axi_gpio_0_0' declared at 'c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_axi_gpio_0_0/synth/pong_bd_axi_gpio_0_0.vhd:59' bound to instance 'axi_gpio_0' of component 'pong_bd_axi_gpio_0_0' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:1771]
+INFO: [Synth 8-3491] module 'pong_bd_axi_gpio_0_0' declared at 'c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_axi_gpio_0_0/synth/pong_bd_axi_gpio_0_0.vhd:59' bound to instance 'axi_gpio_0' of component 'pong_bd_axi_gpio_0_0' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:1787]
 INFO: [Synth 8-638] synthesizing module 'pong_bd_axi_gpio_0_0' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_axi_gpio_0_0/synth/pong_bd_axi_gpio_0_0.vhd:84]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
@@ -206,7 +206,7 @@ WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLIN1_ND.READ_REG_GE
 INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (7#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ipshared/c193/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
 INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (8#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ipshared/c193/hdl/axi_gpio_v2_0_vh_rfs.vhd:1358]
 INFO: [Synth 8-256] done synthesizing module 'pong_bd_axi_gpio_0_0' (9#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_axi_gpio_0_0/synth/pong_bd_axi_gpio_0_0.vhd:84]
-INFO: [Synth 8-3491] module 'pong_bd_axi_gpio_1_0' declared at 'c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_axi_gpio_1_0/synth/pong_bd_axi_gpio_1_0.vhd:59' bound to instance 'axi_gpio_1' of component 'pong_bd_axi_gpio_1_0' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:1794]
+INFO: [Synth 8-3491] module 'pong_bd_axi_gpio_1_0' declared at 'c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_axi_gpio_1_0/synth/pong_bd_axi_gpio_1_0.vhd:59' bound to instance 'axi_gpio_1' of component 'pong_bd_axi_gpio_1_0' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:1810]
 INFO: [Synth 8-638] synthesizing module 'pong_bd_axi_gpio_1_0' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_axi_gpio_1_0/synth/pong_bd_axi_gpio_1_0.vhd:86]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
@@ -265,30 +265,30 @@ WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT0_ND.READ_REG_G
 INFO: [Synth 8-256] done synthesizing module 'GPIO_Core__parameterized0' (9#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ipshared/c193/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
 INFO: [Synth 8-256] done synthesizing module 'axi_gpio__parameterized1' (9#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ipshared/c193/hdl/axi_gpio_v2_0_vh_rfs.vhd:1358]
 INFO: [Synth 8-256] done synthesizing module 'pong_bd_axi_gpio_1_0' (10#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_axi_gpio_1_0/synth/pong_bd_axi_gpio_1_0.vhd:86]
-INFO: [Synth 8-3491] module 'pong_bd_image_source_0_0' declared at 'c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_image_source_0_0/synth/pong_bd_image_source_0_0.vhd:56' bound to instance 'image_source_0' of component 'pong_bd_image_source_0_0' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:1819]
-INFO: [Synth 8-638] synthesizing module 'pong_bd_image_source_0_0' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_image_source_0_0/synth/pong_bd_image_source_0_0.vhd:72]
+INFO: [Synth 8-3491] module 'pong_bd_image_source_0_0' declared at 'c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_image_source_0_0/synth/pong_bd_image_source_0_0.vhd:56' bound to instance 'image_source_0' of component 'pong_bd_image_source_0_0' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:1835]
+INFO: [Synth 8-638] synthesizing module 'pong_bd_image_source_0_0' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_image_source_0_0/synth/pong_bd_image_source_0_0.vhd:76]
 	Parameter pixels_y bound to: 600 - type: integer 
 	Parameter pixels_x bound to: 800 - type: integer 
-INFO: [Synth 8-3491] module 'image_source' declared at 'C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/new/image_source.vhd:35' bound to instance 'U0' of component 'image_source' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_image_source_0_0/synth/pong_bd_image_source_0_0.vhd:107]
-INFO: [Synth 8-638] synthesizing module 'image_source' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/new/image_source.vhd:56]
+INFO: [Synth 8-3491] module 'image_source' declared at 'C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/new/image_source.vhd:27' bound to instance 'U0' of component 'image_source' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_image_source_0_0/synth/pong_bd_image_source_0_0.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'image_source' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/new/image_source.vhd:55]
 	Parameter pixels_y bound to: 600 - type: integer 
 	Parameter pixels_x bound to: 800 - type: integer 
-WARNING: [Synth 8-614] signal 'clk' is read in the process but is not in the sensitivity list [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/new/image_source.vhd:149]
-INFO: [Synth 8-256] done synthesizing module 'image_source' (11#1) [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/new/image_source.vhd:56]
-INFO: [Synth 8-256] done synthesizing module 'pong_bd_image_source_0_0' (12#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_image_source_0_0/synth/pong_bd_image_source_0_0.vhd:72]
-INFO: [Synth 8-3491] module 'pong_bd_pong_vga_regs_0_1' declared at 'c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_pong_vga_regs_0_1/synth/pong_bd_pong_vga_regs_0_1.vhd:56' bound to instance 'pong_vga_regs_0' of component 'pong_bd_pong_vga_regs_0_1' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:1833]
-INFO: [Synth 8-638] synthesizing module 'pong_bd_pong_vga_regs_0_1' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_pong_vga_regs_0_1/synth/pong_bd_pong_vga_regs_0_1.vhd:90]
+WARNING: [Synth 8-614] signal 'clk' is read in the process but is not in the sensitivity list [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/new/image_source.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'image_source' (11#1) [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/new/image_source.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'pong_bd_image_source_0_0' (12#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_image_source_0_0/synth/pong_bd_image_source_0_0.vhd:76]
+INFO: [Synth 8-3491] module 'pong_bd_pong_vga_regs_0_0' declared at 'c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_pong_vga_regs_0_0/synth/pong_bd_pong_vga_regs_0_0.vhd:56' bound to instance 'pong_vga_regs_0' of component 'pong_bd_pong_vga_regs_0_0' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:1853]
+INFO: [Synth 8-638] synthesizing module 'pong_bd_pong_vga_regs_0_0' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_pong_vga_regs_0_0/synth/pong_bd_pong_vga_regs_0_0.vhd:96]
 	Parameter AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter BASEADDR bound to: 32'b01000000000000000000000000000000 
-INFO: [Synth 8-3491] module 'pong_vga_regs' declared at 'C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/pong_vga/pong_vga_regs.vhd:26' bound to instance 'U0' of component 'pong_vga_regs' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_pong_vga_regs_0_1/synth/pong_bd_pong_vga_regs_0_1.vhd:166]
-INFO: [Synth 8-638] synthesizing module 'pong_vga_regs' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/pong_vga/pong_vga_regs.vhd:71]
+INFO: [Synth 8-3491] module 'pong_vga_regs' declared at 'C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/pong_vga/pong_vga_regs.vhd:26' bound to instance 'U0' of component 'pong_vga_regs' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_pong_vga_regs_0_0/synth/pong_bd_pong_vga_regs_0_0.vhd:178]
+INFO: [Synth 8-638] synthesizing module 'pong_vga_regs' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/pong_vga/pong_vga_regs.vhd:77]
 	Parameter AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter BASEADDR bound to: 1073741824 - type: integer 
-WARNING: [Synth 8-6014] Unused sequential element v_addr_hit_reg was removed.  [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/pong_vga/pong_vga_regs.vhd:156]
-WARNING: [Synth 8-6014] Unused sequential element v_addr_hit_reg was removed.  [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/pong_vga/pong_vga_regs.vhd:299]
-INFO: [Synth 8-256] done synthesizing module 'pong_vga_regs' (13#1) [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/pong_vga/pong_vga_regs.vhd:71]
-INFO: [Synth 8-256] done synthesizing module 'pong_bd_pong_vga_regs_0_1' (14#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_pong_vga_regs_0_1/synth/pong_bd_pong_vga_regs_0_1.vhd:90]
-INFO: [Synth 8-3491] module 'pong_bd_processing_system7_0_0' declared at 'c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_processing_system7_0_0/synth/pong_bd_processing_system7_0_0.v:60' bound to instance 'processing_system7_0' of component 'pong_bd_processing_system7_0_0' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:1865]
+WARNING: [Synth 8-6014] Unused sequential element v_addr_hit_reg was removed.  [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/pong_vga/pong_vga_regs.vhd:168]
+WARNING: [Synth 8-6014] Unused sequential element v_addr_hit_reg was removed.  [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/pong_vga/pong_vga_regs.vhd:333]
+INFO: [Synth 8-256] done synthesizing module 'pong_vga_regs' (13#1) [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/pong_vga/pong_vga_regs.vhd:77]
+INFO: [Synth 8-256] done synthesizing module 'pong_bd_pong_vga_regs_0_0' (14#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_pong_vga_regs_0_0/synth/pong_bd_pong_vga_regs_0_0.vhd:96]
+INFO: [Synth 8-3491] module 'pong_bd_processing_system7_0_0' declared at 'c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_processing_system7_0_0/synth/pong_bd_processing_system7_0_0.v:60' bound to instance 'processing_system7_0' of component 'pong_bd_processing_system7_0_0' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:1891]
 INFO: [Synth 8-6157] synthesizing module 'pong_bd_processing_system7_0_0' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_processing_system7_0_0/synth/pong_bd_processing_system7_0_0.v:60]
 INFO: [Synth 8-6157] synthesizing module 'processing_system7_v5_5_processing_system7' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:162]
 	Parameter C_USE_DEFAULT_ACP_USER_VAL bound to: 0 - type: integer 
@@ -1354,7 +1354,7 @@ INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_18_crossbar_sas
 INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_18_axi_crossbar' (49#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ipshared/15a3/hdl/axi_crossbar_v2_1_vl_rfs.v:4884]
 INFO: [Synth 8-6155] done synthesizing module 'pong_bd_xbar_0' (50#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_xbar_0/synth/pong_bd_xbar_0.v:59]
 INFO: [Synth 8-256] done synthesizing module 'pong_bd_ps7_0_axi_periph_0' (51#1) [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:749]
-INFO: [Synth 8-3491] module 'pong_bd_rst_ps7_0_100M_0' declared at 'c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_rst_ps7_0_100M_0/synth/pong_bd_rst_ps7_0_100M_0.vhd:59' bound to instance 'rst_ps7_0_100M' of component 'pong_bd_rst_ps7_0_100M_0' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:2045]
+INFO: [Synth 8-3491] module 'pong_bd_rst_ps7_0_100M_0' declared at 'c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_rst_ps7_0_100M_0/synth/pong_bd_rst_ps7_0_100M_0.vhd:59' bound to instance 'rst_ps7_0_100M' of component 'pong_bd_rst_ps7_0_100M_0' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:2071]
 INFO: [Synth 8-638] synthesizing module 'pong_bd_rst_ps7_0_100M_0' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_rst_ps7_0_100M_0/synth/pong_bd_rst_ps7_0_100M_0.vhd:74]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
@@ -1438,7 +1438,7 @@ INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (54#1) [c:/Xilinx/Project
 INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (55#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
 INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (56#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
 INFO: [Synth 8-256] done synthesizing module 'pong_bd_rst_ps7_0_100M_0' (57#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_rst_ps7_0_100M_0/synth/pong_bd_rst_ps7_0_100M_0.vhd:74]
-INFO: [Synth 8-3491] module 'pong_bd_vga_controller_0_0' declared at 'c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_vga_controller_0_0/synth/pong_bd_vga_controller_0_0.vhd:56' bound to instance 'vga_controller_0' of component 'pong_bd_vga_controller_0_0' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:2058]
+INFO: [Synth 8-3491] module 'pong_bd_vga_controller_0_0' declared at 'c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_vga_controller_0_0/synth/pong_bd_vga_controller_0_0.vhd:56' bound to instance 'vga_controller_0' of component 'pong_bd_vga_controller_0_0' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:2084]
 INFO: [Synth 8-638] synthesizing module 'pong_bd_vga_controller_0_0' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_vga_controller_0_0/synth/pong_bd_vga_controller_0_0.vhd:68]
 	Parameter h_pulse bound to: 128 - type: integer 
 	Parameter h_bp bound to: 88 - type: integer 
@@ -1448,8 +1448,8 @@ INFO: [Synth 8-638] synthesizing module 'pong_bd_vga_controller_0_0' [c:/Xilinx/
 	Parameter v_bp bound to: 23 - type: integer 
 	Parameter v_pixels bound to: 600 - type: integer 
 	Parameter v_fp bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'vga_controller' declared at 'C:/Xilinx/Projects/Pong_Game/VGA_Controller.vhd:30' bound to instance 'U0' of component 'vga_controller' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_vga_controller_0_0/synth/pong_bd_vga_controller_0_0.vhd:107]
-INFO: [Synth 8-638] synthesizing module 'vga_controller' [C:/Xilinx/Projects/Pong_Game/VGA_Controller.vhd:54]
+INFO: [Synth 8-3491] module 'vga_controller' declared at 'C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/Pong_Game/VGA_Controller.vhd:26' bound to instance 'U0' of component 'vga_controller' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_vga_controller_0_0/synth/pong_bd_vga_controller_0_0.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'vga_controller' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/Pong_Game/VGA_Controller.vhd:50]
 	Parameter h_pulse bound to: 128 - type: integer 
 	Parameter h_bp bound to: 88 - type: integer 
 	Parameter h_pixels bound to: 800 - type: integer 
@@ -1458,7 +1458,7 @@ INFO: [Synth 8-638] synthesizing module 'vga_controller' [C:/Xilinx/Projects/Pon
 	Parameter v_bp bound to: 23 - type: integer 
 	Parameter v_pixels bound to: 600 - type: integer 
 	Parameter v_fp bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'vga_controller' (58#1) [C:/Xilinx/Projects/Pong_Game/VGA_Controller.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'vga_controller' (58#1) [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/Pong_Game/VGA_Controller.vhd:50]
 INFO: [Synth 8-256] done synthesizing module 'pong_bd_vga_controller_0_0' (59#1) [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ip/pong_bd_vga_controller_0_0/synth/pong_bd_vga_controller_0_0.vhd:68]
 INFO: [Synth 8-256] done synthesizing module 'pong_bd' (60#1) [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/synth/pong_bd.vhd:1385]
 INFO: [Synth 8-256] done synthesizing module 'pong_bd_wrapper' (61#1) [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/hdl/pong_bd_wrapper.vhd:47]
@@ -1564,7 +1564,7 @@ WARNING: [Synth 8-3331] design axi_infrastructure_v1_1_0_axi2vector__parameteriz
 WARNING: [Synth 8-3331] design axi_infrastructure_v1_1_0_axi2vector__parameterized0 has unconnected port s_axi_awlen[7]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 638.629 ; gain = 324.289
+Finished RTL Elaboration : Time (s): cpu = 00:00:59 ; elapsed = 00:01:03 . Memory (MB): peak = 710.871 ; gain = 396.551
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1577,10 +1577,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:00:55 . Memory (MB): peak = 638.629 ; gain = 324.289
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:00 ; elapsed = 00:01:04 . Memory (MB): peak = 710.871 ; gain = 396.551
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:49 ; elapsed = 00:00:55 . Memory (MB): peak = 638.629 ; gain = 324.289
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:00 ; elapsed = 00:01:04 . Memory (MB): peak = 710.871 ; gain = 396.551
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 65 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -1621,16 +1621,16 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   IOBUF => IOBUF (IBUF, OBUFT): 4 instances
   SRL16 => SRL16E: 1 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 887.844 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 911.484 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:01:03 ; elapsed = 00:01:11 . Memory (MB): peak = 887.844 ; gain = 573.504
+Finished Constraint Validation : Time (s): cpu = 00:01:18 ; elapsed = 00:01:25 . Memory (MB): peak = 911.484 ; gain = 597.164
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:01:03 ; elapsed = 00:01:11 . Memory (MB): peak = 887.844 ; gain = 573.504
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:18 ; elapsed = 00:01:25 . Memory (MB): peak = 911.484 ; gain = 597.164
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -1651,7 +1651,7 @@ Applied set_property DONT_TOUCH = true for pong_bd_i/rst_ps7_0_100M/U0. (constra
 Applied set_property DONT_TOUCH = true for pong_bd_i/axi_gpio_0/U0. (constraint file  C:/Xilinx/Projects/pong_vga/pong_vga.runs/synth_1/dont_touch.xdc, line 51).
 Applied set_property DONT_TOUCH = true for pong_bd_i/axi_gpio_1/U0. (constraint file  C:/Xilinx/Projects/pong_vga/pong_vga.runs/synth_1/dont_touch.xdc, line 61).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:03 ; elapsed = 00:01:12 . Memory (MB): peak = 887.844 ; gain = 573.504
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:18 ; elapsed = 00:01:26 . Memory (MB): peak = 911.484 ; gain = 597.164
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment'
 INFO: [Synth 8-5544] ROM "s_axi_rresp_i" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
@@ -1662,15 +1662,32 @@ INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address si
 INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
-INFO: [Synth 8-4471] merging register 'blue_reg[4:0]' into 'red_reg[4:0]' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/new/image_source.vhd:165]
-WARNING: [Synth 8-6014] Unused sequential element blue_reg was removed.  [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/new/image_source.vhd:165]
+INFO: [Synth 8-4471] merging register 'blue_reg[4:0]' into 'red_reg[4:0]' [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/new/image_source.vhd:159]
+WARNING: [Synth 8-6014] Unused sequential element blue_reg was removed.  [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/new/image_source.vhd:159]
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FONT[0]" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-802] inferred FSM for state register 'v_state_r_reg' in module 'pong_vga_regs'
 INFO: [Synth 8-802] inferred FSM for state register 'v_state_r_reg' in module 'pong_vga_regs'
 INFO: [Synth 8-5545] ROM "s_sync_strobe_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "v_state_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "v_addr_hit" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "s_y_paddle_strobe_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "v_addr_hit" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "s_score_position_strobe_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "s_score_number_strobe_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5544] ROM "v_state_r" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_protocol_converter_v2_1_17_b2s_rd_cmd_fsm'
 INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
@@ -1721,7 +1738,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'v_state_r_reg' using encod
 INFO: [Synth 8-3354] encoded FSM with state register 'v_state_r_reg' using encoding 'sequential' in module 'pong_vga_regs'
 INFO: [Synth 8-6159] Found Keep on FSM register 'state_reg' in module 'axi_protocol_converter_v2_1_17_b2s_rd_cmd_fsm', re-encoding will not be performed
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:17 ; elapsed = 00:01:26 . Memory (MB): peak = 887.844 ; gain = 573.504
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:34 ; elapsed = 00:01:42 . Memory (MB): peak = 911.484 ; gain = 597.164
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1734,8 +1751,8 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   3 Input     33 Bit       Adders := 34    
-	   2 Input     16 Bit       Adders := 37    
+	   3 Input     33 Bit       Adders := 52    
+	   2 Input     16 Bit       Adders := 53    
 	   2 Input     12 Bit       Adders := 8     
 	   2 Input     11 Bit       Adders := 1     
 	   2 Input     10 Bit       Adders := 1     
@@ -1750,8 +1767,8 @@ Detailed RTL Component Info :
 	               64 Bit    Registers := 1     
 	               47 Bit    Registers := 2     
 	               36 Bit    Registers := 2     
-	               32 Bit    Registers := 11    
-	               16 Bit    Registers := 4     
+	               32 Bit    Registers := 10    
+	               16 Bit    Registers := 8     
 	               14 Bit    Registers := 2     
 	               12 Bit    Registers := 9     
 	               11 Bit    Registers := 1     
@@ -1763,27 +1780,28 @@ Detailed RTL Component Info :
 	                4 Bit    Registers := 16    
 	                3 Bit    Registers := 4     
 	                2 Bit    Registers := 20    
-	                1 Bit    Registers := 98    
+	                1 Bit    Registers := 100   
 +---Muxes : 
 	   2 Input     66 Bit        Muxes := 4     
 	   2 Input     64 Bit        Muxes := 1     
 	   2 Input     47 Bit        Muxes := 2     
 	   2 Input     36 Bit        Muxes := 2     
 	   5 Input     32 Bit        Muxes := 2     
-	   2 Input     32 Bit        Muxes := 11    
+	   2 Input     32 Bit        Muxes := 12    
 	   3 Input     32 Bit        Muxes := 1     
 	   4 Input     32 Bit        Muxes := 1     
 	   2 Input     16 Bit        Muxes := 2     
-	   5 Input     16 Bit        Muxes := 4     
+	   5 Input     16 Bit        Muxes := 8     
 	   2 Input     14 Bit        Muxes := 2     
 	   2 Input     12 Bit        Muxes := 6     
 	   2 Input     11 Bit        Muxes := 1     
 	   2 Input     10 Bit        Muxes := 10    
 	   2 Input      9 Bit        Muxes := 6     
-	 251 Input      6 Bit        Muxes := 1     
-	   2 Input      6 Bit        Muxes := 4     
-	 251 Input      5 Bit        Muxes := 1     
-	   2 Input      5 Bit        Muxes := 9     
+	 320 Input      8 Bit        Muxes := 16    
+	   2 Input      6 Bit        Muxes := 323   
+	  30 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 328   
+	  30 Input      5 Bit        Muxes := 1     
 	   4 Input      4 Bit        Muxes := 2     
 	   2 Input      4 Bit        Muxes := 33    
 	   5 Input      3 Bit        Muxes := 1     
@@ -1792,12 +1810,11 @@ Detailed RTL Component Info :
 	   2 Input      2 Bit        Muxes := 18    
 	   4 Input      2 Bit        Muxes := 4     
 	   5 Input      2 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 114   
-	   4 Input      1 Bit        Muxes := 16    
-	  29 Input      1 Bit        Muxes := 1     
-	 256 Input      1 Bit        Muxes := 1     
-	   5 Input      1 Bit        Muxes := 10    
-	   3 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 438   
+	   4 Input      1 Bit        Muxes := 17    
+	  30 Input      1 Bit        Muxes := 1     
+	  65 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 15    
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -1878,41 +1895,41 @@ Detailed RTL Component Info :
 Module image_source 
 Detailed RTL Component Info : 
 +---Adders : 
-	   3 Input     33 Bit       Adders := 34    
-	   2 Input     16 Bit       Adders := 37    
+	   3 Input     33 Bit       Adders := 52    
+	   2 Input     16 Bit       Adders := 53    
 +---Registers : 
 	                6 Bit    Registers := 1     
 	                5 Bit    Registers := 1     
 +---Muxes : 
-	 251 Input      6 Bit        Muxes := 1     
-	   2 Input      6 Bit        Muxes := 3     
-	 251 Input      5 Bit        Muxes := 1     
-	   2 Input      5 Bit        Muxes := 3     
-	  29 Input      1 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 5     
-	 256 Input      1 Bit        Muxes := 1     
+	 320 Input      8 Bit        Muxes := 16    
+	   2 Input      6 Bit        Muxes := 322   
+	  30 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 322   
+	  30 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 327   
+	  30 Input      1 Bit        Muxes := 1     
+	  65 Input      1 Bit        Muxes := 1     
 Module pong_vga_regs 
 Detailed RTL Component Info : 
 +---Registers : 
-	               32 Bit    Registers := 5     
-	               16 Bit    Registers := 4     
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 8     
 	                4 Bit    Registers := 1     
 	                2 Bit    Registers := 3     
-	                1 Bit    Registers := 9     
+	                1 Bit    Registers := 11    
 +---Muxes : 
-	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
 	   3 Input     32 Bit        Muxes := 1     
 	   4 Input     32 Bit        Muxes := 1     
 	   2 Input     16 Bit        Muxes := 2     
-	   5 Input     16 Bit        Muxes := 4     
+	   5 Input     16 Bit        Muxes := 8     
 	   5 Input      3 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 2     
 	   4 Input      2 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 16    
-	   5 Input      1 Bit        Muxes := 10    
-	   3 Input      1 Bit        Muxes := 3     
-	   4 Input      1 Bit        Muxes := 10    
+	   2 Input      1 Bit        Muxes := 18    
+	   5 Input      1 Bit        Muxes := 15    
+	   4 Input      1 Bit        Muxes := 11    
 Module axi_protocol_converter_v2_1_17_b2s_incr_cmd 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -2153,11 +2170,13 @@ INFO: [Synth 8-4471] merging register 'bus2ip_reset_reg' into 'AXI_LITE_IPIF_I/I
 WARNING: [Synth 8-6014] Unused sequential element bus2ip_reset_reg was removed.  [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ipshared/c193/hdl/axi_gpio_v2_0_vh_rfs.vhd:1684]
 INFO: [Synth 8-4471] merging register 'bus2ip_reset_reg' into 'AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_reg' [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ipshared/c193/hdl/axi_gpio_v2_0_vh_rfs.vhd:1684]
 WARNING: [Synth 8-6014] Unused sequential element bus2ip_reset_reg was removed.  [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ipshared/c193/hdl/axi_gpio_v2_0_vh_rfs.vhd:1684]
-WARNING: [Synth 8-6014] Unused sequential element U0/v_mem_wait_count_r_reg was removed.  [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/pong_vga/pong_vga_regs.vhd:127]
-INFO: [Synth 8-5545] ROM "U0/v_addr_hit" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "U0/s_y_paddle_strobe_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "U0/s_sync_strobe_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "U0/v_state_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element v_mem_wait_count_r_reg was removed.  [C:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/imports/pong_vga/pong_vga_regs.vhd:139]
+INFO: [Synth 8-5545] ROM "v_addr_hit" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "s_y_paddle_strobe_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "s_score_position_strobe_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "s_score_number_strobe_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "s_sync_strobe_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v_state_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw.aw_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ipshared/6020/hdl/axi_register_slice_v2_1_vl_rfs.v:422]
 INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar.ar_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ipshared/6020/hdl/axi_register_slice_v2_1_vl_rfs.v:422]
 WARNING: [Synth 8-6014] Unused sequential element inst/gen_sasd.crossbar_sasd_0/addr_arbiter_inst/gen_no_arbiter.m_grant_enc_i_reg was removed.  [c:/Xilinx/Projects/pong_vga/pong_vga.srcs/sources_1/bd/pong_bd/ipshared/15a3/hdl/axi_crossbar_v2_1_vl_rfs.v:324]
@@ -2375,7 +2394,7 @@ INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instan
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (pong_bd_i/vga_controller_0/\U0/Y_reg[31] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (pong_bd_i/vga_controller_0/\U0/X_reg[31] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:37 ; elapsed = 00:01:47 . Memory (MB): peak = 887.844 ; gain = 573.504
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:04 ; elapsed = 00:02:13 . Memory (MB): peak = 911.484 ; gain = 597.164
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2387,13 +2406,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:48 ; elapsed = 00:01:58 . Memory (MB): peak = 990.203 ; gain = 675.863
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:17 ; elapsed = 00:02:27 . Memory (MB): peak = 1014.855 ; gain = 700.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:52 ; elapsed = 00:02:03 . Memory (MB): peak = 1057.453 ; gain = 743.113
+Finished Timing Optimization : Time (s): cpu = 00:02:33 ; elapsed = 00:02:43 . Memory (MB): peak = 1209.652 ; gain = 895.332
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2405,7 +2424,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:56 ; elapsed = 00:02:07 . Memory (MB): peak = 1080.434 ; gain = 766.094
+Finished Technology Mapping : Time (s): cpu = 00:02:39 ; elapsed = 00:02:49 . Memory (MB): peak = 1232.758 ; gain = 918.438
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2446,7 +2465,7 @@ INFO: [Synth 8-4618] Found max_fanout attribute set to 20 on net \inst/gen_axili
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:58 ; elapsed = 00:02:09 . Memory (MB): peak = 1080.434 ; gain = 766.094
+Finished IO Insertion : Time (s): cpu = 00:02:41 ; elapsed = 00:02:52 . Memory (MB): peak = 1232.758 ; gain = 918.438
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -2459,7 +2478,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:58 ; elapsed = 00:02:09 . Memory (MB): peak = 1080.434 ; gain = 766.094
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:41 ; elapsed = 00:02:52 . Memory (MB): peak = 1232.758 ; gain = 918.438
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2471,25 +2490,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:59 ; elapsed = 00:02:10 . Memory (MB): peak = 1080.434 ; gain = 766.094
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:42 ; elapsed = 00:02:52 . Memory (MB): peak = 1232.758 ; gain = 918.438
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:59 ; elapsed = 00:02:10 . Memory (MB): peak = 1080.434 ; gain = 766.094
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:42 ; elapsed = 00:02:53 . Memory (MB): peak = 1232.758 ; gain = 918.438
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:59 ; elapsed = 00:02:10 . Memory (MB): peak = 1080.434 ; gain = 766.094
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:43 ; elapsed = 00:02:53 . Memory (MB): peak = 1232.758 ; gain = 918.438
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:59 ; elapsed = 00:02:10 . Memory (MB): peak = 1080.434 ; gain = 766.094
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:43 ; elapsed = 00:02:53 . Memory (MB): peak = 1232.758 ; gain = 918.438
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -2524,33 +2543,34 @@ Report Cell Usage:
 +------+--------+------+
 |1     |BIBUF   |   130|
 |2     |BUFG    |     1|
-|3     |CARRY4  |   565|
-|4     |LUT1    |   723|
-|5     |LUT2    |  1217|
-|6     |LUT3    |   334|
-|7     |LUT4    |   796|
-|8     |LUT5    |   200|
-|9     |LUT6    |   491|
-|10    |PS7     |     1|
-|11    |SRL16   |     1|
-|12    |SRL16E  |    18|
-|13    |SRLC32E |    47|
-|14    |FDCE    |   287|
-|15    |FDPE    |     2|
-|16    |FDR     |    40|
-|17    |FDRE    |   817|
-|18    |FDSE    |    66|
-|19    |IBUF    |     4|
-|20    |IOBUF   |     4|
-|21    |OBUF    |    18|
+|3     |CARRY4  |   816|
+|4     |LUT1    |  1014|
+|5     |LUT2    |  1971|
+|6     |LUT3    |   461|
+|7     |LUT4    |  1124|
+|8     |LUT5    |   340|
+|9     |LUT6    |  1554|
+|10    |MUXF7   |     3|
+|11    |PS7     |     1|
+|12    |SRL16   |     1|
+|13    |SRL16E  |    18|
+|14    |SRLC32E |    47|
+|15    |FDCE    |   353|
+|16    |FDPE    |     2|
+|17    |FDR     |    40|
+|18    |FDRE    |   818|
+|19    |FDSE    |    65|
+|20    |IBUF    |     4|
+|21    |IOBUF   |     4|
+|22    |OBUF    |    18|
 +------+--------+------+
 
 Report Instance Areas: 
 +------+------------------------------------------------------------------------------+---------------------------------------------------------------+------+
 |      |Instance                                                                      |Module                                                         |Cells |
 +------+------------------------------------------------------------------------------+---------------------------------------------------------------+------+
-|1     |top                                                                           |                                                               |  5762|
-|2     |  pong_bd_i                                                                   |pong_bd                                                        |  5736|
+|1     |top                                                                           |                                                               |  8785|
+|2     |  pong_bd_i                                                                   |pong_bd                                                        |  8759|
 |3     |    axi_gpio_0                                                                |pong_bd_axi_gpio_0_0                                           |   124|
 |4     |      U0                                                                      |axi_gpio                                                       |   124|
 |5     |        AXI_LITE_IPIF_I                                                       |axi_lite_ipif_5                                                |    71|
@@ -2567,10 +2587,10 @@ Report Instance Areas:
 |16    |            I_DECODER                                                         |address_decoder                                                |    28|
 |17    |        gpio_core_1                                                           |GPIO_Core__parameterized0                                      |    50|
 |18    |          \Not_Dual.INPUT_DOUBLE_REGS3                                        |cdc_sync                                                       |    16|
-|19    |    image_source_0                                                            |pong_bd_image_source_0_0                                       |  3211|
-|20    |      U0                                                                      |image_source                                                   |  2985|
-|21    |    pong_vga_regs_0                                                           |pong_bd_pong_vga_regs_0_1                                      |   366|
-|22    |      U0                                                                      |pong_vga_regs                                                  |   366|
+|19    |    image_source_0                                                            |pong_bd_image_source_0_0                                       |  6092|
+|20    |      U0                                                                      |image_source                                                   |  5773|
+|21    |    pong_vga_regs_0                                                           |pong_bd_pong_vga_regs_0_0                                      |   508|
+|22    |      U0                                                                      |pong_vga_regs                                                  |   508|
 |23    |    processing_system7_0                                                      |pong_bd_processing_system7_0_0                                 |   244|
 |24    |      inst                                                                    |processing_system7_v5_5_processing_system7                     |   244|
 |25    |    ps7_0_axi_periph                                                          |pong_bd_ps7_0_axi_periph_0                                     |  1497|
@@ -2618,13 +2638,13 @@ Report Instance Areas:
 |67    |      U0                                                                      |vga_controller                                                 |    94|
 +------+------------------------------------------------------------------------------+---------------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:59 ; elapsed = 00:02:10 . Memory (MB): peak = 1080.434 ; gain = 766.094
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:43 ; elapsed = 00:02:53 . Memory (MB): peak = 1232.758 ; gain = 918.438
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 207 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:59 ; elapsed = 00:01:57 . Memory (MB): peak = 1080.434 ; gain = 516.879
-Synthesis Optimization Complete : Time (s): cpu = 00:01:59 ; elapsed = 00:02:10 . Memory (MB): peak = 1080.434 ; gain = 766.094
+Synthesis finished with 0 errors, 0 critical warnings and 221 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:29 ; elapsed = 00:02:37 . Memory (MB): peak = 1232.758 ; gain = 717.824
+Synthesis Optimization Complete : Time (s): cpu = 00:02:43 ; elapsed = 00:02:53 . Memory (MB): peak = 1232.758 ; gain = 918.438
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 614 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 868 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -2635,11 +2655,11 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   SRL16 => SRL16E: 1 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-536 Infos, 127 Warnings, 0 Critical Warnings and 0 Errors encountered.
+555 Infos, 127 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:03 ; elapsed = 00:02:15 . Memory (MB): peak = 1080.434 ; gain = 773.094
+synth_design: Time (s): cpu = 00:02:48 ; elapsed = 00:02:59 . Memory (MB): peak = 1232.758 ; gain = 925.414
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/Projects/pong_vga/pong_vga.runs/synth_1/pong_bd_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file pong_bd_wrapper_utilization_synth.rpt -pb pong_bd_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.077 . Memory (MB): peak = 1080.434 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Fri Oct  5 18:59:09 2018...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.090 . Memory (MB): peak = 1232.758 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 11 17:05:44 2018...

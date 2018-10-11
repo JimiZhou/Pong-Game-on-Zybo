@@ -30,8 +30,8 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==pong_bd_xbar_0 
 # IP: bd/pong_bd/ip/pong_bd_axi_gpio_1_0/pong_bd_axi_gpio_1_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==pong_bd_axi_gpio_1_0 || ORIG_REF_NAME==pong_bd_axi_gpio_1_0} -quiet] -quiet
 
-# IP: bd/pong_bd/ip/pong_bd_pong_vga_regs_0_1/pong_bd_pong_vga_regs_0_1.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==pong_bd_pong_vga_regs_0_1 || ORIG_REF_NAME==pong_bd_pong_vga_regs_0_1} -quiet] -quiet
+# IP: bd/pong_bd/ip/pong_bd_pong_vga_regs_0_0/pong_bd_pong_vga_regs_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==pong_bd_pong_vga_regs_0_0 || ORIG_REF_NAME==pong_bd_pong_vga_regs_0_0} -quiet] -quiet
 
 # IP: bd/pong_bd/ip/pong_bd_auto_pc_0/pong_bd_auto_pc_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==pong_bd_auto_pc_0 || ORIG_REF_NAME==pong_bd_auto_pc_0} -quiet] -quiet
