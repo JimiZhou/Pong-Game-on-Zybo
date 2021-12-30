@@ -48,6 +48,9 @@ constant BALL: rom_ball :=
  - Two players: *Left* and *Right*. Controlled by GPIO buttons.
 - Score board available. When one of the player gots 10 scores, the game ends.
 
+### Demo
+![Demo](https://github.com/JimiZhou/Pong-Game-on-Zybo/blob/master/pong-game-test.gif)
+
 ### Notes
 This is my first time writing VHDL and develop software-controlled design in Xilinx SDK. The code in VGA image source is not well organized, especially if user wants to add certain character in the game, it needs to be re-written and generate the bitstream again for SDK to work, and also the register map should be updated.
 
